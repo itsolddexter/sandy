@@ -4,9 +4,9 @@ import time
 from telethon import TelegramClient, events
 from bs4 import BeautifulSoup
 
-api_id = 'api_id'  # Replace with your API ID
-api_hash = 'api_hash'  # Replace with your API hash
-bot_token = 'bot_token'  # Replace with your bot token
+api_id = '21612966'  # Replace with your API ID
+api_hash = '5bbd3c5d584a7f443e0f20625652a3ad'  # Replace with your API hash
+bot_token = '7331763278:AAFqxmDXLO648U_MqfgTidql4zXE9ol0A7w'  # Replace with your bot token
 
 client = TelegramClient('bot_session', api_id, api_hash).start(bot_token=bot_token)
 
