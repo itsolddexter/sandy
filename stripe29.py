@@ -29,7 +29,7 @@ async def handle_single_card(event):
             response_msg = await process_card(card, month, year, cvc)
             end_time = time.time()
             time_taken = end_time - start_time
-            await event.respond(f"{card}|{month}|{year}|{cvc} - {response_msg} (Time taken: {time_taken:.2f} seconds)")
+            await event.respond(f"{card}|{month}|{year}|{cvc} - {response_msg} (Time taken: {time_taken:.2f} seconds) - By @BlackHeadsOP")
         except Exception as e:
             await event.respond(f"Error processing card: {str(e)}")
 
